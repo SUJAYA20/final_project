@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Amigos</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#logout" id="logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <h1>Welcome to <span>Amigos</span> Home Page</h1>
+        <p>Your one-stop solution for traffic safety awareness.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Our Features</h2>
+        <ul>
+            <li>Real-Time Traffic Alerts</li>
+            <li>Safety Tips for Drivers</li>
+            <li>Navigation Assistance</li>
+            <li>Accident Reports</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Amigos - Traffic Safety | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Logout functionality
+        document.getElementById('logout').addEventListener('click', () => {
+            alert('Logged Out Successfully!');
+            window.location.href = 'login.html';
+        });
+    </script>
+</body>
+</html>
